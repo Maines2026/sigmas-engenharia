@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SIGMAS Engenharia</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#222;
+    background:#ffffff;
+}
+
+.sobre p{
+    font-size:18px;
+}
+
+/* HERO PREMIUM */
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:48px;
+    letter-spacing:2px;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:18px;
+    opacity:0.9;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 30px;
+    background:#00c48c;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    border-radius:6px;
+}
+
+/* SECTIONS */
+
+.section p{
+    line-height:2.8;
+}
+
+.section{
+    max-width:1100px;
+    margin:auto;
+    padding:20px 20px;
+}
+.bg-white{
+    background:#ffffff;
+}
+
+.bg-light{
+    background:#f4f6f9;
+}
+
+.bg-dark{
+    background:#1f2c3a;
+    color:white;
+}
+
+.bg-dark h2{
+    color:white;
+}
+.section h2{
+    font-size:30px;
+    margin-bottom:25px;
+    position:relative;
+}
+
+.section h2::after{
+    content:"";
+    width:60px;
+    height:3px;
+    background:#00c48c;
+    position:absolute;
+    bottom:-10px;
+    left:0;
+}
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+/* CARDS PREMIUM */
+.card{
+    padding:30px;
+    border-radius:12px;
+    background:#f9fafc;
+    border:1px solid #eee;
+    transition:0.3s;
+color:#222;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* STRIP DARK */
+.dark{
+    background:#1f2c3a;
+    color:white;
+}
+
+.dark h2{
+    color:white;
+}
+
+/* METODOLOGIA */
+.steps{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.step{
+    background:#00c48c;
+    color:white;
+    padding:12px 18px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+/* CTA FINAL */
+.cta{
+    text-align:center;
+    background:#1f2c3a;
+    color:white;
+    padding:80px 20px;
+}
+
+.cta h2{
+    margin-bottom:20px;
+}
+
+/* FOOTER */
+.footer{
+    text-align:center;
+    padding:30px;
+    background:#111;
+    color:#aaa;
+}
+
+/* WHATSAPP */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25d366;
+    color:white;
+    padding:16px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+}
+
+/* RESPONSIVO */
+@media(max-width:600px){
+    .hero h1{font-size:32px;}
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+ <h1>SIGMAS ENGENHARIA</h1>
+        <p>Projetos estruturais</p>
+        <p>Balneário Camboriú – SC | (47) 99602-5697 (Whatsapp)</p>
+        <a href="https://wa.me/5547996025697" class="btn">Solicitar Orçamento</a>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section class="section dark">
+<img src="logo.png" style="width:500px; margin-bottom:20px;">
+    <h2>Sobre a Empresa</h2>
+    <p>
+    A SIGMAS ENGENHARIA desenvolve projetos estruturais com Qualidade e Responsabilidade <p>
+ <p>  Projetos desenvolvidos por profissional com ampla experiência profissional </p>
+ <p>    Projetos realizados com equilíbrio, bom detalhamento e custo competitivo </p>
+ <p>    Profissional com mais de 30 anos de mercado e vários projetos realizados </p> 
+<p>    Uso de softwares modernos e com solução para projetos complexos </p>      
+</section>
+
+<!-- SERVIÇOS -->
+<section class="section bg-dark sobre">    
+<h2>Serviços Desenvolvidos</h2>
+    <div class="grid">
+        <div class="card">Projetos em concreto armado</div>
+        <div class="card">Projetos em estruturas metálicas</div>
+        <div class="card">Análise estrutural</div>
+        <div class="card">Laudos e perícias</div>
+    </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section class="section dark">
+    <h2>Diferenciais</h2>
+    <div class="grid">
+        <div class="card">Otimização de custos estruturais</div>
+        <div class="card">Alto rigor técnico</div>
+        <div class="card">Projetos executáveis em obra</div>
+        <div class="card">Atendimento direto com engenheiro</div>
+<div class="card">Uso de softwares complexos</div>
+    </div>
+</section>
+
+
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Precisa de um projeto estrutural seguro e otimizado?</h2>
+    <a href="https://wa.me/5547996025697" class="btn">Fale pelo WhatsApp</a>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+    SIGMAS ENGENHARIA — Balneário Camboriú | CREA: inserir
+</div>
+
+<a class="whatsapp" href="https://wa.me/5547996025697">💬</a>
+
+</body>
+</html>
